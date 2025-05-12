@@ -24,7 +24,7 @@ We use logistic regression models to predict whether a mushroom is **edible** or
 
 ## 🛠️ Tools & Technologies
 
-- **R** and **Quarto**
+- **RStudio** and **Quarto**
 - Packages: `tidyverse`, `ggplot2`, `broom`, `pROC`, `lme4`, `flextable`, etc.
 
 ---
