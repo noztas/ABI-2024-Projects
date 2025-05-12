@@ -1,12 +1,13 @@
 # 🐧 Penguin Classification Analysis Using R
 
 This project explores the Palmer Penguins dataset to investigate morphological differences across species and predict the sex of penguins using various statistical and machine learning techniques. 
-It demonstrates an end-to-end data science workflow in R — from data cleaning to statistical modeling and evaluation.
+It demonstrates an end-to-end data science workflow in RStudio— from data cleaning to statistical modeling and evaluation.
 
 ## Data Source
-Palmer Penguins dataset
-Provided via the {palmerpenguins} R package
-https://github.com/allisonhorst/palmerpenguins
+
+### Palmer Penguins dataset
+### Provided via the {palmerpenguins} R package
+### https://github.com/allisonhorst/palmerpenguins
 ---
 
 ## Project Overview
