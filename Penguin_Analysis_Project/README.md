@@ -5,9 +5,8 @@ It demonstrates an end-to-end data science workflow in RStudio— from data clea
 
 ## Data Source
 
-### Palmer Penguins dataset
-### Provided via the {palmerpenguins} R package
-### https://github.com/allisonhorst/palmerpenguins
+Palmer Penguins dataset provided via the {palmerpenguins} R package https://github.com/allisonhorst/palmerpenguins
+
 ---
 
 ## Project Overview
