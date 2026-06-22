@@ -1,31 +1,29 @@
-# 🐧 Penguin Classification Analysis Using R
+# Penguin Classification (R)
 
-This project explores the Palmer Penguins dataset to investigate morphological differences across species and predict the sex of penguins using various statistical and machine learning techniques. 
-It demonstrates an end-to-end data science workflow in RStudio— from data cleaning to statistical modeling and evaluation.
+An end-to-end study on the Palmer Penguins dataset: comparing species by physical traits and predicting penguin sex from those traits.
 
-## Data Source
-
-Palmer Penguins dataset provided via the {palmerpenguins} R package https://github.com/allisonhorst/palmerpenguins
+**Tools:** R, RStudio. Models: logistic regression, classification tree (CART)
+**Data:** [Palmer Penguins](https://github.com/allisonhorst/palmerpenguins) via the {palmerpenguins} R package
 
 ---
 
-## Project Overview
+## What I did
 
-### Objectives:
-- Explore morphological traits (e.g., bill length, body mass) across penguin species and sexes
-- Perform normality testing and statistical comparisons
-- Build predictive models to classify penguin sex based on physical features
+- Explored bill length, bill depth, and body mass across species and sexes
+- Tested normality (Shapiro-Wilk, Kolmogorov-Smirnov) and compared groups with ANOVA and post-hoc tests
+- Built a classification tree and a logistic regression to predict sex
+- Evaluated with ROC curves, the Youden index, and odds-ratio interpretation
 
-### Methods Applied:
-- Exploratory Data Analysis (EDA)
-- Shapiro-Wilk and Kolmogorov-Smirnov normality tests
-- ANOVA and post-hoc tests
-- Classification tree (CART)
-- Logistic regression with odds ratio interpretation
-- ROC curve analysis and Youden Index thresholding
+## What I found
 
-### Key Findings
-- Body mass, bill depth, and bill length are strong predictors of sex
-- Classification tree and logistic regression both show high accuracy
-- ROC curve analysis demonstrates excellent model performance (AUC ≈ 1)
-- Logistic model provides interpretable odds ratios with confidence intervals
+- Body mass, bill depth, and bill length are the strongest predictors of sex
+- Both models classify sex with high accuracy
+- The logistic model gives interpretable odds ratios with confidence intervals
+
+---
+
+## About me
+
+**Neslihan Oztas Ates** · Data Analyst · Ingolstadt, Germany
+
+[LinkedIn](https://www.linkedin.com/in/neslihanoztas/) · [Portfolio](https://noztas.github.io/Portfolio-Website/) · [GitHub](https://github.com/noztas/) · neslihanoztas1@gmail.com
