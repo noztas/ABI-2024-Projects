@@ -1,15 +1,19 @@
-# 🎓 ABI 2024 – Applied Bioinformatics & Biostatistics Projects
+# Applied Bioinformatics & Biostatistics Projects (2024)
 
-Welcome to my project portfolio for the **Applied Bioinformatics & Biostatistics (ABI 2024)** program at CQ Beratung + Bildung, Berlin.
+Coursework from the Applied Bioinformatics and Biostatistics program at CQ Beratung + Bildung, Berlin. Each project applies statistical modeling and reproducible reporting in R and Quarto.
 
-This repository contains coursework projects focused on data wrangling, statistical modeling, and data visualization using R and Quarto. Each project folder includes a detailed analysis report and reproducible code.
+## Projects
+
+- [Mushroom Classification](./Mushroom_Classification) - logistic regression predicting edible vs poisonous mushrooms
+- [Cell Growth Analysis](./Cell_Growth_Analysis) - linear and mixed-effects models of cell growth under treatment
+- [Penguin Classification](./Penguin_Analysis_Project) - predicting penguin sex from morphological traits
+
+**Tools:** R, Quarto, lme4 / nlme, tidyverse, pROC
 
 ---
 
-## 📁 Projects
+## About me
 
+**Neslihan Oztas Ates** · Data Analyst · Ingolstadt, Germany
 
-- [Mushroom Classification](./Mushroom_Classification)
-- [Cell Growth Analysis](./Cell_Growth_Analysis)
-- [Penguin Classification](./Penguin_Analysis_Project)
-
+[LinkedIn](https://www.linkedin.com/in/neslihanoztas/) · [Portfolio](https://noztas.github.io/Portfolio-Website/) · [GitHub](https://github.com/noztas/) · neslihanoztas1@gmail.com
