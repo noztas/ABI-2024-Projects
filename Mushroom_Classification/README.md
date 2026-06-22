@@ -1,39 +1,33 @@
-# 🍄 Mushroom Classification Analysis
+# Mushroom Classification (R)
 
-This project is part of the **Applied Bioinformatics & Biostatistics (2024)** course.  
-We use logistic regression models to predict whether a mushroom is **edible** or **poisonous** based on physical features.
+A logistic-regression study that predicts whether a mushroom is edible or poisonous from its physical features. Part of the Applied Bioinformatics and Biostatistics program (2024).
 
----
-
-## 🔍 Project Overview
-
-- Performed **univariable** and **multivariable** logistic regression
-- Created **odds ratio forest plots**, **ROC curves**, and **diagnostic visuals**
-- Applied model evaluation metrics (Youden Index, sensitivity, specificity)
-- Included **data visualization** for feature inspection
+**Tools:** R, Quarto. Packages: tidyverse, ggplot2, broom, pROC, flextable
+**Data:** mushroom physical characteristics (cap, gill, and related features)
 
 ---
 
-## 📁 Files Included
+## What I did
 
-- `Mushrooms_Classification_Analysis.qmd`: Full Quarto analysis script
-- `Mushrooms_Classification_Analysis.docx`: Rendered Word report with results
-- `README.md`: This project description
+- Built univariable and multivariable logistic regression models
+- Evaluated them with ROC curves, the Youden index, sensitivity, and specificity
+- Produced odds-ratio forest plots and diagnostic visuals to read each feature's effect
+- Rendered the full analysis to a reproducible Quarto report
+
+## What I found
+
+- The model reached about 66% sensitivity and 73% specificity
+- Gill attachment and cap color were among the strongest predictors of whether a mushroom is poisonous
+
+## Files
+
+- `Mushrooms_Classification_Analysis.qmd` - full Quarto analysis
+- `Mushrooms_Classification_Analysis.docx` - rendered report
 
 ---
 
-## 🛠️ Tools & Technologies
+## About me
 
-- **RStudio** and **Quarto**
-- Packages: `tidyverse`, `ggplot2`, `broom`, `pROC`, `lme4`, `flextable`, etc.
+**Neslihan Oztas Ates** · Data Analyst · Ingolstadt, Germany
 
----
-
-## 📚 Learning Highlights
-
-- Logistic regression in R
-- Model diagnostics and performance interpretation
-- Data wrangling, visualization, and reproducibility
-
-
-
+[LinkedIn](https://www.linkedin.com/in/neslihanoztas/) · [Portfolio](https://noztas.github.io/Portfolio-Website/) · [GitHub](https://github.com/noztas/) · neslihanoztas1@gmail.com
