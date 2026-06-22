@@ -1,49 +1,29 @@
-# 📊 Cell Growth Analysis
+# Cell Growth Analysis (R)
 
-This project is part of a portfolio of hands-on training completed during the **Applied Bioinformatics and Biostatistics** course (February–September 2024) at **CQ Beratung + Bildung** in Berlin. It showcases statistical modeling and visualization of cell growth response under different treatment conditions using R and Quarto.
+A statistical study of how treatment and cell passage affect cell growth, using linear and mixed-effects models. Part of the Applied Bioinformatics and Biostatistics program (2024).
 
----
-
-## Project Overview
-
-The aim of this project is to analyze the effects of **treatment** and **passage** on cell growth, using a dataset from a controlled biological experiment. The analysis demonstrates the use of:
-
-- Linear regression and ANOVA
-- Linear mixed-effects models (LMMs) with random intercepts and slopes
-- Model interpretation using the `easystats` suite
-- Visualizations using `ggplot2`, `patchwork`, and `ggbeeswarm`
-- Quarto for reproducible reporting
+**Tools:** R, Quarto. Packages: lme4, nlme, easystats, ggplot2, patchwork
+**Data:** a controlled cell-growth experiment. The original `Zellbeads.sav` isn't shared for privacy; the script simulates a realistic dataset if it's missing, so the analysis still runs end to end.
 
 ---
 
-## 📁 Included Files
+## What I did
 
-Cell_Growth_Analysis.qmd – Quarto script containing the full analysis, code, plots, and comments.
+- Explored how passage relates to cell growth
+- Fit linear regression and ANOVA to test treatment and passage effects
+- Built linear mixed-effects models with random intercepts and slopes (`lmer`, `nlme::lme`) to account for repeated measures
+- Interpreted fixed and random effects with the easystats suite and visualized them
+- Wrote the whole analysis as a reproducible Quarto report
 
-Cell_Growth_Analysis.docx – Word document generated from the Quarto script.
+## Files
 
----
-
-## Dataset Notice
-
-The original dataset (`Zellbeads.sav`) is not included in this repo due to privacy.  
-However, the Quarto script automatically **simulates a realistic dataset** if the original is missing — ensuring full reproducibility without data disclosure.
-
----
-
-## Topics Covered
-
-- **EDA:** Exploring the relationship between passage and cell growth  
-- **Linear modeling:** Understanding how cell growth changes with treatment and passage  
-- **ANOVA and model diagnostics**  
-- **Random intercept and slope models** using `lmer()` and `nlme::lme()`  
-- **Visualizing fixed and random effects** across conditions
+- `Cell_Growth_Analysis.qmd` - full Quarto analysis
+- `Cell_Growth_Analysis.docx` - rendered report
 
 ---
 
-## 🛠️ Tools & Packages Used
+## About me
 
-- `lme4`, `nlme`, `easystats`, `ggplot2`, `patchwork`, `dplyr`, `forcats`
-- Reproducible report written in **Quarto**, rendered to Word (`.docx`)
+**Neslihan Oztas Ates** · Data Analyst · Ingolstadt, Germany
 
-
+[LinkedIn](https://www.linkedin.com/in/neslihanoztas/) · [Portfolio](https://noztas.github.io/Portfolio-Website/) · [GitHub](https://github.com/noztas/) · neslihanoztas1@gmail.com
